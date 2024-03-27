@@ -1,0 +1,33 @@
+# " reference: https://hub.docker.com/_/mongo "
+# Use root/example as user/password credentials
+version: '3.1'
+
+services:
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+
+# docker network create mynet
+# docker run -d --name mongodb --network mynet --restart=always \
+#-e MONGO_INITDB_ROOT_USERNAME=root -e MONGO_INITDB_ROOT_PASSWORD=example mongo
+# 명령어일때는 컨테이너 이름으로 ip 붙일때 편하기떄문에 따로 붙여줌
+
+  mongo-express:
+    image: mongo-express
+    restart: always
+    ports:
+      - 8081:8081
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: root
+      ME_CONFIG_MONGODB_ADMINPASSWORD: example
+      ME_CONFIG_MONGODB_URL: mongodb://root:example@mongo:27017/
+    depends_on:
+      - mongo
+# docker run -d --name mongoexpress --network mynet --restart=always -p 8081:8081\
+# -e ME_CONFIG_MONGODB_ADMINUSERNAME=root\ 
+# -e ME_CONFIG_MONGODB_ADMINPASSWORD=example \
+# -e ME_CONFIG_MONGODB_URL="mongodb://root:example@mongodb:27017/" 
+# 앞쪽 이름 mongodb는 프로토콜이름, 뒤쪽이름은 서버이름이므로 일치시켜야함

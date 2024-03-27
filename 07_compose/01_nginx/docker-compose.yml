@@ -1,0 +1,11 @@
+# docker run --name some-nginx -v /some/content:/usr/share/nginx/html:ro -d nginx
+
+# version: "3"
+
+services:
+  web:  #임의로 서비스 이름 정하기 #구분자임
+    image: nginx
+    # container_name: some-nginx
+    volumes:
+    - "/some/content:/usr/share/nginx/html:ro"
+    #바인드 마운트방식은 컴포즈파일에서 정의가 안됨

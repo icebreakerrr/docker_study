@@ -1,0 +1,15 @@
+2024-03-26 09:35:34.767 [info] update#setState idle
+2024-03-26 09:35:54.020 [info] Extension host with pid 3862 exited with code: 0, signal: unknown.
+2024-03-26 09:36:04.680 [info] update#setState checking for updates
+2024-03-26 09:36:04.773 [info] update#setState idle
+2024-03-26 10:36:04.685 [info] update#setState checking for updates
+2024-03-26 10:36:04.942 [info] update#setState idle
+2024-03-26 11:36:04.691 [info] update#setState checking for updates
+2024-03-26 11:36:04.979 [info] update#setState idle
+2024-03-26 12:36:04.696 [info] update#setState checking for updates
+2024-03-26 12:36:04.940 [info] update#setState idle
+2024-03-26 13:36:04.700 [info] update#setState checking for updates
+2024-03-26 13:36:04.982 [info] update#setState idle
+2024-03-26 14:32:53.269 [error] [UtilityProcessWorker]: terminated unexpectedly with code 15, signal: unknown
+2024-03-26 14:32:53.271 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 4032]: crashed with code 15 and reason 'killed'
+2024-03-26 14:32:53.319 [info] Extension host with pid 4043 exited with code: 0, signal: unknown.

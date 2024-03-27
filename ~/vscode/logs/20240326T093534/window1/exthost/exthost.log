@@ -1,0 +1,29 @@
+2024-03-26 09:35:39.628 [info] Extension host with pid 3862 started
+2024-03-26 09:35:39.978 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-26 09:35:40.129 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-26 09:35:40.400 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-26 09:35:40.740 [info] Eager extensions activated
+2024-03-26 09:35:40.793 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-26 09:35:40.800 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-26 09:35:40.839 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2024-03-26 09:35:41.093 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl, startup: false, activationEvent: 'onStartupFinished'
+2024-03-26 09:35:43.665 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-03-26 09:35:43.773 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-03-26 09:35:43.913 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-26 09:35:53.951 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-26 09:35:54.018 [info] Extension host with pid 3862 exiting with code 0
+2024-03-26 09:35:56.085 [info] Extension host with pid 4043 started
+2024-03-26 09:35:56.085 [info] Skipping acquiring lock for /root/docker/~/vscode/User/workspaceStorage/51c6b41f5df72d420c44bbbbf0c4a429.
+2024-03-26 09:35:56.128 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-03-26 09:35:56.142 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-26 09:35:56.191 [info] Eager extensions activated
+2024-03-26 09:35:56.394 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-26 09:35:56.397 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-26 09:35:56.467 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2024-03-26 09:35:56.548 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl, startup: false, activationEvent: 'onStartupFinished'
+2024-03-26 09:36:04.592 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-03-26 09:36:06.860 [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onLanguage:dockerfile'
+2024-03-26 09:36:07.656 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-26 10:52:13.666 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-03-26 14:32:53.123 [info] Extension host terminating: renderer closed the MessagePort
+2024-03-26 14:32:53.306 [info] Extension host with pid 4043 exiting with code 0

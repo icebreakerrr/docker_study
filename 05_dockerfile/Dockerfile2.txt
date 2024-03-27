@@ -1,0 +1,8 @@
+# 베이스 이미지
+FROM ubuntu:latest
+
+# RUN 명령의 실행
+RUN echo 안녕하세요. shell 형식입니다. #shell 형식, 서브쉘
+RUN ["echo", " 안녕하세요 Exec 형식입니다."] # exec 형식, 현재쉘실행
+RUN ["/bin/bash", "-c", "echo '안녕하세요. Exec 형식에서 bash를 사용해 보았습니다.'"]
+# 서브쉘에서 exec 실행하려면 bash -c CMD로 작성
